@@ -334,7 +334,6 @@ jobs:
           TEST_OPTS_JAVA_OPTIONS=
           JTREG_KEYWORDS="!headful"
           JTREG="JAVA_OPTIONS=-XX:-CreateCoredumpOnCrash"
-
       - name: Check that all tests executed successfully
         if: always()
         run: >
